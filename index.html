@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keyword" content="login,account,sing in">
     <link rel="stylesheet" href="style.css">
-    <link href="icons8-login-64.png" rel="icon" >
+    <link href="icons8-login-64.png" rel="icon">
 </head>
 
 <body id="background-box">
@@ -23,48 +23,50 @@
     <h3 class="Description">log in to your account</h3>
 </div>
 
-<!-- Login Box show -->
-<div id="item-box">
-    <div id="radio-box">
 
-        <!-- Radio Button-->
-        <label> Log In As:</label>
-        <input type="radio" class="radio-custom" id="radioid" name="private">
-        <label for="radioid" class="lablecolored1">private</label>
-        <input type="radio" class="radio-custommm" id="radioid2" name="private">
-        <label for="radioid2" class="lablecolored2">Laboratory</label>
-    </div>
+<form method="get" action="#">
+    <!-- Login Box show -->
+    <div id="item-box">
+        <div id="radio-box">
 
-    <!-- Uswe name -->
-    <div class="box-text">
-        <label for="username1" class="lable-text">Username </label><br>
-        <input type="text" name="textname" required id="username1" class="username">
-    </div>
-    <div class="box-text">
-        <label for="password" class="lable-text">Password </label><br>
-        <input type="text" name="textname" required id="password" class="username1">
-    </div>
+            <!-- Radio Button-->
+            <label> Log In As:</label>
+            <input type="radio" class="radio-custom" id="radioid" name="private" value="private">
+            <label for="radioid" class="lablecolored1">private</label>
+            <input type="radio" class="radio-custommm" id="radioid2" name="private" value="Laboratory">
+            <label for="radioid2" class="lablecolored2">Laboratory</label>
+        </div>
 
-    <!-- Check box -->
-    <div>
-        <input type="checkbox" name="check" id="check-box">
-        <label for="check-box" class="check-lable"> Remember me</label>
-    </div>
+        <!-- Uswe name -->
+        <div class="box-text">
+            <label for="username1" class="lable-text">Username </label><br>
+            <input type="text" name="textname" required id="username1" class="username">
+        </div>
+        <div class="box-text">
+            <label for="password" class="lable-text">Password </label><br>
+            <input type="text" name="passname" required id="password" class="username1">
+        </div>
 
-    <!-- Submit -->
-    <div>
-        <input type="submit" name="log-in" id="bot-log" value="Log in">
-    </div>
-    <br>
+        <!-- Check box -->
+        <div>
+            <input type="checkbox" name="check" id="check-box" value="remember on">
+            <label for="check-box" class="check-lable"> Remember me</label>
+        </div>
 
-    <!-- A tag link  -->
-    <div style="text-align: center; margin-top: 25px">
-        <a class="forget-password" rel="nofollow"
-           href="https://accounts.google.com/v3/signin/challenge/pwd?TL=AIBe4_JtgRFItAaruSaKKumm4e4fDR7uteVooSRiF-huzIm2c6fapdZAp2j6Sv_3&cid=1&continue=https://myaccount.google.com/signinoptions/password&flowName=GlifWebSignIn&hl=en_US&ifkv=AVQVeywrfMSXFUrNczHwDUgO8zaa10Sc1U4l22KLOiPNU0ER9P4feQr5oCyw2TYbmV0PcMbMIJJVRA&kdi=CAM&rart=ANgoxccFClPwVDDnPo8zyeNM2Vs8ktUwYUgBPrn2mazYNwO34yd0TdG_rrJVUq9bZW38UdEwHecu4vt3HjV46qnbDB9hMMLU6Q&rpbg=1&sarp=1&scc=1&service=accountsettings">
-            Forget Password?</a>
-    </div>
-</div>
+        <!-- Submit -->
+        <div>
+            <input type="submit" name="log-in" id="bot-log" value="Log in">
+        </div>
+        <br>
 
+        <!-- A tag link  -->
+        <div style="text-align: center; margin-top: 25px">
+            <a class="forget-password" rel="nofollow"
+               href="https://accounts.google.com/v3/signin/challenge/pwd?TL=AIBe4_JtgRFItAaruSaKKumm4e4fDR7uteVooSRiF-huzIm2c6fapdZAp2j6Sv_3&cid=1&continue=https://myaccount.google.com/signinoptions/password&flowName=GlifWebSignIn&hl=en_US&ifkv=AVQVeywrfMSXFUrNczHwDUgO8zaa10Sc1U4l22KLOiPNU0ER9P4feQr5oCyw2TYbmV0PcMbMIJJVRA&kdi=CAM&rart=ANgoxccFClPwVDDnPo8zyeNM2Vs8ktUwYUgBPrn2mazYNwO34yd0TdG_rrJVUq9bZW38UdEwHecu4vt3HjV46qnbDB9hMMLU6Q&rpbg=1&sarp=1&scc=1&service=accountsettings">
+                Forget Password?</a>
+        </div>
+    </div>
+</form>
 
 <!-- End show  -->
 <div style="text-align: center; margin-top: 25px">

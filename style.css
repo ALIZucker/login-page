@@ -15,7 +15,7 @@ body {
 #item-box {
     box-shadow: 0px 0px 8px 1px black;
     width: 450px;
-    height: 350px;
+    height: 380px;
     margin: auto;
     padding: 7px;
     background-color: whitesmoke;
@@ -89,9 +89,13 @@ body {
 
 .lable-text {
     margin-left: 14px;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 400;
 
+}
+#radio-box label{
+    font-size: 17px;
+    font-family: "Century Schoolbook";
 }
 
 .box-text {
@@ -116,7 +120,7 @@ body {
 }
 
 .check-lable {
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 400;
 }
 
