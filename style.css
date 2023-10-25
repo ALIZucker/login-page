@@ -9,12 +9,11 @@
 
 body {
     margin: 0;
-    padding: 0px
+    padding: 5px;
 }
 
 #item-box {
-    box-shadow:
-            0px 0px 8px 1px black;
+    box-shadow: 0px 0px 8px 1px black;
     width: 450px;
     height: 350px;
     margin: auto;
@@ -27,7 +26,7 @@ body {
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    border: 1px midnightblue  solid;
+    border: 1px midnightblue solid;
 
 }
 
@@ -38,31 +37,37 @@ body {
     margin-left: 10px;
     font-family: "Cooper Std Black";
 }
-.Description{
+
+.Description {
     font-family: "Lucida Calligraphy";
 
 }
-#icon-box{
+
+#icon-box {
     flex-direction: row;
     justify-content: start;
     display: flex;
 }
-#title-wellcome{
+
+#title-wellcome {
     font-family: "Cooper Std Black";
-    font-size:50px;
+    font-size: 50px;
     font-weight: 900;
     margin: 0;
 }
-#radio-box{
+
+#radio-box {
     margin: 8px 8px;
 
 }
-#radio-box label{
+
+#radio-box label {
     font-size: 15px;
     font-weight: bold;
     padding: 10px;
 }
-.username{
+
+.username {
     margin-left: 11px;
     width: 94%;
     height: 25px;
@@ -71,7 +76,8 @@ body {
     margin-top: 8px;
 
 }
-.username1{
+
+.username1 {
     margin-left: 11px;
     width: 94%;
     font-size: 15px;
@@ -80,33 +86,41 @@ body {
     font-weight: 200;
     -webkit-text-security: disc;
 }
-.lable-text{
+
+.lable-text {
     margin-left: 14px;
     font-size: 15px;
     font-weight: 400;
 
 }
-.box-text{
+
+.box-text {
     margin-top: 18px;
 }
-.radio-custom:checked ~ .lablecolored1   {
+
+.radio-custom:checked ~ .lablecolored1 {
     color: blue;
 }
-.radio-custommm:checked ~ .lablecolored2   {
+
+.radio-custommm:checked ~ .lablecolored2 {
     color: blue;
 }
-#check-box:checked ~ .check-lable{
+
+#check-box:checked ~ .check-lable {
     color: blue;
 }
-#check-box{
+
+#check-box {
     margin: 28px 10px;
     width: 30px;
 }
-.check-lable{
+
+.check-lable {
     font-size: 15px;
     font-weight: 400;
 }
-#bot-log{
+
+#bot-log {
     width: 93%;
     height: 38px;
     font-size: 20px;
@@ -117,9 +131,11 @@ body {
     background-color: deepskyblue;
     margin-left: 15px;
 }
-.forget-password{
+
+.forget-password {
     color: midnightblue;
     text-decoration: none;
     margin: 0 8px;
+    font-weight: 500;
 
 }
