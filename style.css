@@ -1,0 +1,125 @@
+#background-box {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(2px);
+
+}
+
+body {
+    margin: 0;
+    padding: 0px
+}
+
+#item-box {
+    box-shadow:
+            0px 0px 8px 1px black;
+    width: 450px;
+    height: 350px;
+    margin: auto;
+    padding: 7px;
+    background-color: whitesmoke;
+    opacity: 0.7;
+}
+
+#icon-top {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 1px blue solid;
+
+}
+
+.medel-title {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 10px;
+    font-family: "Cooper Std Black";
+}
+.Description{
+    font-family: "Lucida Calligraphy";
+
+}
+#icon-box{
+    flex-direction: row;
+    justify-content: start;
+    display: flex;
+}
+#title-wellcome{
+    font-family: "Cooper Std Black";
+    font-size:50px;
+    font-weight: 900;
+    margin: 0;
+}
+#radio-box{
+    margin: 8px 8px;
+
+}
+#radio-box label{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+.username{
+    margin-left: 11px;
+    width: 94%;
+    height: 25px;
+    font-size: 15px;
+    font-weight: 200;
+    margin-top: 8px;
+
+}
+.username1{
+    margin-left: 11px;
+    width: 94%;
+    font-size: 15px;
+    height: 25px;
+    margin-top: 8px;
+    font-weight: 200;
+    -webkit-text-security: disc;
+}
+.lable-text{
+    margin-left: 14px;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.box-text{
+    margin-top: 18px;
+}
+.radio-custom:checked ~ .lablecolored1   {
+    color: blue;
+}
+.radio-custommm:checked ~ .lablecolored2   {
+    color: blue;
+}
+#check-box:checked ~ .check-lable{
+    color: blue;
+}
+#check-box{
+    margin: 28px 10px;
+    width: 30px;
+}
+.check-lable{
+    font-size: 15px;
+    font-weight: 400;
+}
+#bot-log{
+    width: 93%;
+    height: 38px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border: white;
+    border-radius: 10px;
+    background-color: deepskyblue;
+    margin-left: 15px;
+}
+.forget-password{
+    color: midnightblue;
+    text-decoration: none;
+    margin: 0 8px;
+
+}
