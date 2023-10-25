@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(3px);
 
 }
 
@@ -27,7 +27,7 @@ body {
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    border: 1px blue solid;
+    border: 1px midnightblue  solid;
 
 }
 
