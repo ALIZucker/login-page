@@ -1,5 +1,5 @@
 #background-box {
-    background-image: url("background.jpg");
+    background-image: url("/assets/pic/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
